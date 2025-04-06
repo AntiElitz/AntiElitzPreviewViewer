@@ -8,7 +8,7 @@ Factorio/*
 factorio-preview-toolkit-dummy-save-to-create-map-gen-settings/
 
 # Viewer build artifacts
-viewer-config.js
+config.js
 
 # Preview images (generated content)
 previews/
