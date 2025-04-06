@@ -1,0 +1,70 @@
+# === Project-Specific ===
+
+# Ignore everything in the Factorio folder, but keep the folder itself
+Factorio/*
+!Factorio/.gitkeep
+
+# Ignore the dummy save folder completely
+factorio-preview-toolkit-dummy-save-to-create-map-gen-settings/
+
+# Viewer build artifacts
+Factorio Preview Viewer/viewer-config.js
+
+# Preview images (generated content)
+previews/
+
+# Logs and temp
+uploader.log
+previous.log
+output_links.txt
+
+# Map generation config (regenerated)
+map-gen-settings.json
+
+# Ignore everything in the rclone folder, but keep the folder itself
+rclone/*
+!rclone/.gitkeep
+
+# Local HTML links file (optional, if generated)
+output_links.txt
+
+# Viewer build output (optional, only if built or compiled)
+dist/
+build/
+
+# Ignore compiled/minified frontend assets (if using tooling later)
+*.min.js
+*.min.css
+
+# VSCode and PyCharm project settings
+.vscode/
+.idea/
+
+# === Python-wide ignores ===
+
+# Ignore __pycache__ folders recursively
+**/__pycache__/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
